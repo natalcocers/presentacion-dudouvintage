@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Presentación - Sitio Responsive</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- fin slider de la home -->
+
+    <link rel="stylesheet" href="css/presentacion.css">
+</head>
+<body>
+    <main>
+        <div class="titulo-sitio-responsive">
+            <h1>Sitio responsive</h1>
+        </div>
+        <div class="subtitulo-sitio-responsive">
+            <h2>Estructura y parte de la web:</h2>
+            <p>4 Secciones navegables entre sí, que se adaptan a cualquier dispositivo.</p>
+        </div>
+        <section id="estructura">
+            <ul class="estructura">
+                <li>
+                    <img src="imgs/home.png" alt="">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="imgs/tienda.png" alt="">
+                    <p>Tienda</p>
+                </li>
+                <li>
+                    <img src="imgs/nosotros.png" alt="">
+                    <p>Nosotros</p>
+                </li>
+                <li>
+                    <img src="imgs/contacto.png" alt="">
+                    <p>Contacto</p>
+                </li>
+            </ul>
+        </section>
+        <section id="haciendo-sitio-responsive">
+            <div class="titulo-haciendo-responsive">
+                <h2>Haciendo un sitio responsive</h2>
+                <p>Se utilizó la metaetiqueta “Viewport” para hacer que el sitio web sea adaptable a cualquier dispositvo. </p>
+
+                <p class="texto-color">
+                <pre class="texto-color">
+                    <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code> y las mediaqueries con min-width
+                    </pre>
+                </p>
+            </div>
+
+            <div class="haciendo-sitio-responsive">
+                <div>
+                    <h3>Botón de inicio:</h3>
+                    <img src="imgs/boton-inicio.png" alt="">
+                    <p>Para ir al inicio, se debe hacer click en el logo, donde se puso el botón.</p>
+                    <p>Se usó la etiqueta <code>&lt;a href=" "&gt;&lt;/a&gt;</code>  </p>
+                </div>
+                <div>
+                    <h3>Botón de hamburguesa:</h3>
+                    <img src="imgs/boton-hamburguesa.png" alt="">
+                    <p>Para navegar entre secciones, se hizo un “botón hamburguesa”</p>
+                    <p>HTML:  Se hace un <code>&lt;button&gt;&lt;/button&gt;</code>  y el menú está dentro de una etiqueta <code>&lt;nav&gt;&lt;/nav&gt;</code>  oculta por defecto.
+                    </p>
+
+                    <p>CSS: cómo se ve el botón y el menú, y definen si el menú está visible o no.</p>
+                </div>
+                <div>
+                    <h3>Slider</h3>
+                    <img src="imgs/slider.png" alt="">
+                    <p>Al inicio esta un slider con las fotos del collage.</p>
+                    <p> Contiene las imágenes dentro de un contenedor, el cual se desplaza horizontalmente con un botón.</p>
+                </div>
+                <div>
+                    <h3>Galería de fotos</h3>
+                    <img src="imgs/galeria-fotos.png" alt="">
+                    <p>Por debajo de “novedades”, una galeria de fotos con algunas formas de estilizar las prendas.</p>
+                    <p>Se logra combinando HTML, CSS y JavaScript. Las imágenes miniatura activan un contenedor modal (lightbox) al ser clickeadas, el cual muestra la imagen en tamaño completo.</p>
+                </div>
+                <div>
+                    <h3>Novedades/Tienda</h3>
+                    <img src="imgs/novedades-tienda.png" alt="">
+                    <p>Al hacer click en cualquiera de las fotos de la sección “novedades” , esta te lleva a Tienda.</p>
+                    <p>Se uso la etiqueta <code>&lt;a href=" "&gt;&lt;/a&gt;</code> </p>
+                </div>
+                <div>
+                    <h3>Novedades</h3>
+                    <img src="imgs/novedades.png" alt="">
+                    <p>Las imágenes de “novedades”, tienen el símbolo de descuento, estrellas (que marcan el estado de la prenda) y botones para agregar al carrito / favoritos.</p>
+                </div>
+                <div>
+                    <h3>Nosotros</h3>
+                    <img src="imgs/zoom-nosotros.png" alt="">
+                    <p>Imagen estática de fondo y navegacion con imágenes y texto.</p>
+                    <p>La imagen grande se agregó desde el CSS y las pequeñas desde el HTML usando <code>&lt;img&gt;</code> </p>
+                </div>
+                <div>
+                    <h3>Contacto</h3>
+                    <img src="imgs/formulario-contacto.png" alt="">
+                    <p>Pagina de contacto con el numero y mail de la tienda.</p>
+                    <p>Abajo un formulario de contacto.</p>
+                </div>
+                <div>
+                    <h3>Anuncio intersitios</h3>
+                    <img src="imgs/anuncio.png" alt="">
+                    <p>Imagen estática de fondo y navegacion con imágenes y texto.</p>
+                    <p>La imagen grande se agregó desde el CSS y las pequeñas desde el HTML usando <code>&lt;img&gt;</code> </p>
+                </div>
+                <div>
+                    <h3>Mail marketing</h3>
+                    <img src="imgs/mail.png" alt="">
+                    <p>Estrategia de marketing digital que utiliza el correo electrónico para conectar directamente con el público objetivo.</p>
+                </div>
+            </div>
+        </section>
+        <section id="link-ver-pagina">
+            <div class="link-ver-pagina">
+                <a href="https://natalcocers.github.io/Dudou-Vintage/#" target="_blank">Visitar página</a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; Todos los derechos reservados. 2024 - Desarrollado por: Natalia Alcócer.</p>
+    </footer>
+</body>
+</html>

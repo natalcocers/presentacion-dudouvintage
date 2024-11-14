@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diseño de Collage</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slider de la home -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css'>
+
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- fin slider de la home -->
+
+    <link rel="stylesheet" href="css/presentacion.css">
+</head>
+<body>
+    <main>
+        <div class="titulo-collage">
+            <h1>Diseño de collage</h1>
+        </div>
+        <section id="collage">
+            <div>
+                <h2>Collage como elemento diferenciador</h2>
+                <p>El diferencial se encuentra en el diseño autentico de la web, sus imágenes y elementos que lo asemejan a un collage digital. </p>
+                <p>Al combinar la estética de un local vintage, con la funcionalidad de una tienda online, se quiso ofrecer una propuesta de diseño que va mas allá de una transacción comercial.</p>
+            </div>
+            <div>
+                <img src="imgs/collagediferenciador.png" alt="">
+            </div>
+        </section>
+        <section>
+            <!-- slider -->
+            <div class="section slider-section">
+                <div class="container slider-column">
+                    <div class="slider-inner" id="slider">
+                        <img class="slider-image" src="imgs/collageslider2.png" alt="Slider">
+                        <img class="slider-image" src="imgs/collageslider3.png" alt="Slider">
+                        <img class="slider-image" src="imgs/collageslider4.png" alt="Slider">
+                        <img class="slider-image" src="imgs/collageslider5.png" alt="Slider">
+                    </div>
+                    <span role="tablist" class="pagination"></span>
+                    <span class="slider-prev"><i class="bx bx-chevron-left"></i></span>
+                    <span class="slider-next"><i class="bx bx-chevron-right"></i></span>
+                </div>
+            </div>
+            <!-- fin slider -->
+        </section>
+        <section id="collage-2">
+            <ul class="collage">
+                <li><img src="imgs/collagetienda1.png" alt=""></li>
+                <li><img src="imgs/collagetienda2.png" alt=""></li>
+                <li><img src="imgs/collagetienda3.png" alt=""></li>
+                <li><img src="imgs/collagetienda4.png" alt=""></li>
+            </ul>
+        </section>
+        <div class="arrow">
+            <a href="sitio-responsive.html"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>&copy; Todos los derechos reservados. 2024 - Desarrollado por: Natalia Alcócer.</p>
+    </footer>
+
+    <!-- partial slider -->
+    <script src='https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js'></script>
+
+    <script src="js/slider.js"></script>
+
+    <!-- fin partial slider -->
+</body>
+</html>
