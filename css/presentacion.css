@@ -307,7 +307,8 @@ p, span, a, li, label, input {
 
 #haciendo-sitio-responsive {
     margin: 30px;
-    display: inline-block;
+    /*display: inline-block;*/
+    border: 1px solid;
 }
 
 .titulo-haciendo-responsive h2 {
@@ -332,6 +333,10 @@ p, span, a, li, label, input {
 .haciendo-sitio-responsive > div {
     width: 48%;
     margin-bottom: 20px;
+}
+
+.haciendo-sitio-responsive > div img {
+    width: 100%;
 }
 
 .haciendo-sitio-responsive > div h3 {
@@ -370,4 +375,8 @@ p, span, a, li, label, input {
     font-size: 12px;
 }
 
+
+img {
+    width: 100%;
+}
 
